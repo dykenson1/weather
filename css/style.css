@@ -1,0 +1,72 @@
+/* body */
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:  100vh;
+    background-color: rgb(50, 51, 51);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* main container */
+#app{
+    background-color: aliceblue;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* h1 color */
+h1{
+    color: midnightblue;
+}
+p{
+    font-size: 15px;
+}
+h2{
+    color: midnightblue;
+}
+
+/* input */
+input{
+    appearance: none;
+    outline: none;
+    border: 1px solid rgb(183, 183, 183);
+    padding: 10px;
+    border-radius: 6px;
+}
+/* div info */
+.info{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container{
+    width: 70px;
+}
+
+img{
+    width: 100%;
+}
+/* boutons */
+button{
+    appearance: none;
+    outline: none;
+    border: 1px solid midnightblue;
+    width: 90px;
+    height: 35px;
+    border-radius: 6px;
+    margin-left: 15px;
+    background-color: midnightblue;
+    color: aliceblue;
+    font-size: 15px;
+    cursor: pointer;
+}
